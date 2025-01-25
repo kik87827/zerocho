@@ -15,13 +15,24 @@
     constructor(props){
       super(props);
       this.state = {liked : false}
+      // this.onClickButton = this.onClickButton.bind(this);
     }
+
+    // onClickButton(){
+    //   this.setState({liked : true})
+    // }
+    onClickButton = () => {
+      this.setState({liked : true})
+    }
+
     render(){
       if(this.state.liked){
         return 'You liked this.';
       }
 
-      return React.createElement('button',{onClick: () => this.setState({liked : true})}, 'Like')
+      return (
+        <button onClick={this.onClickButton}>버튼</button>
+      )
     }
   } // 1% ErrorBoundary
   /* const LikeButton = () => {
