@@ -1,0 +1,20 @@
+{
+  "name": "wordtail",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "kik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
