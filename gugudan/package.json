@@ -1,5 +1,5 @@
 {
-  "name": "wordtail",
+  "name": "gugudan",
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
@@ -14,11 +14,10 @@
     "react-dom": "18"
   },
   "devDependencies": {
+    "babel-loader": "^9.2.1",
     "@babel/core": "^7.26.7",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.26.7",
     "@babel/preset-react": "^7.26.3",
-    "babel-loader": "^9.2.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   }

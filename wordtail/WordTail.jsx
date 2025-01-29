@@ -2,9 +2,9 @@ const React = require("react");
 const { Component } = React;
 
 class WordTail extends Component {
-  state = {};
+  state = { text: "Hello, webpack" };
   render() {
-    return <div>WordTail</div>;
+    return <h1>{this.state.text}</h1>;
   }
 }
 
