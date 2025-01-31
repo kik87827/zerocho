@@ -1,0 +1,27 @@
+{
+  "name": "wordlast",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack serve --env development"
+  },
+  "author": "kik",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "babel-loader": "^9.2.1",
+    "react-refresh": "^0.16.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
