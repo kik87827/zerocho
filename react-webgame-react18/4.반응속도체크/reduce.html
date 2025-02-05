@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /* 
+        reduce 메서드는 배열의 모든 요소를 순차적으로 처리하여 하나의 값으로 줄이는 역할을 한다.
+        합계, 평균, 최대/최소값 계산 등에 사용
+      */
+      /*
+        array.reduce((accumulator, currentValue, currentIndex, array) => {
+          return accumulator + currentValue;
+        }, initialValue);
+
+        accumulator(누적값) : 이전 단계의 결과를 저장. 초기값(initialValue)으로 시작
+        currentValue(현재값) : 현재 처리 중인 배열 요소
+        initialValue(초기값) : accumulator의 시작 값. 보통 0으로 설정
+       */
+
+      const numbers = [1, 2, 3, 4, 5];
+      const numbers_sum = numbers.reduce((acc, cur) => acc + cur, 0);
+      console.log(numbers_sum);
+
+      const times = [200, 300, 250, 150, 400];
+      const times_sum = times.reduce((acc, cur) => acc + cur, 0);
+      const average = times_sum / times.length;
+      console.log(average);
+    </script>
+  </body>
+</html>
