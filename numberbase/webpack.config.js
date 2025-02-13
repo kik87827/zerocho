@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  name: 'wordtail-setting',
+  name: 'NumberBaseball',
   mode: 'development', // 실서비스는 : production,
   devtool: 'eval',
   resolve: {
